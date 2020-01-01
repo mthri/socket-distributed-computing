@@ -20,11 +20,12 @@ def SocketThread(conn,addr,j,result):
 
         # stay in loop until have any job
         while j.empty():
-            print(':/')
+            pass
         
         if not j.empty():
             tmp = j.get()
             conn.send(tmp.encode('ascii'))
+            time.sleep(.1)
 
         
 
