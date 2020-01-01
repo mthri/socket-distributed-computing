@@ -40,3 +40,4 @@ while True:
     data1 = Finish()
     client.send(data1.encode())
     print(res,' Sent!')
+    data.clear()
