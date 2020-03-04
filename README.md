@@ -3,5 +3,5 @@
 
 In this sampel we have Socket Programming and Distributed Computing together in Python3
 </br>
-In this code i try to show you how to use socket programming and distrbuted computing with an very simpel example
+In this code i try to show you how to use socket programming and distrbuted computing with an very simpel example.</br>
 This code calculating the prime number with assign number to each socket connections.
